@@ -1,0 +1,85 @@
+﻿@model CarPartsShop.Models.EntityModels.Category
+@{
+    ViewBag.Title = @Model.Name;
+}
+
+<br />
+<br />
+<div class="row">
+    <div class="col-xs-12 col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+            @if (Model.Name == "Engine")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/1">Engine</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/1">Engine</a>
+                </li>
+            }
+            @if (Model.Name == "Electronics")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/2">Electronics</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/2">Electronics</a>
+                </li>
+            }
+            @if (Model.Name == "Transmission")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/4">Transmission</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/4">Transmission</a>
+                </li>
+            }
+            @if (Model.Name == "BrakeSystem")
+            {
+                <li class="active">
+                    <a href="~/StoreFront/Index/3">BrakeSystem</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a href="~/StoreFront/Index/3">BrakeSystem</a>
+                </li>
+            }
+
+        </ul>
+    </div>
+    <div class="col-xs-12 col-md-9">
+        <div class="row">
+            @foreach (var part in Model.Parts)
+            {
+                <div class="col-xs-12 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="~/Content/Images/Parts/@(part.Name).png">
+                        <div class="caption text-center">
+                            <p>
+                                <b>Name:</b> <span>@part.Name</span>
+                            </p>
+                            <p>
+                                <b>Price:</b> <span>@part.Price BGN</span>
+                            </p>
+                            <p class="text-center">
+                                @Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = part.Id }, new { @class = "btn btn-info" })
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\CarPartsShop.Data.dll.config
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\CarPartsShop.Data.dll
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\CarPartsShop.Data.pdb
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\CarPartsShop.Models.dll
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\EntityFramework.dll
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\CarPartsShop.Models.pdb
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\EntityFramework.xml
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\obj\Debug\CarPartsShop.Data.csprojResolveAssemblyReference.cache
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\obj\Debug\CarPartsShop.Data.dll
+E:\Projects\ASP.NET MVC\Exams\CarPartsShop\CarPartsShop.Data\obj\Debug\CarPartsShop.Data.pdb
